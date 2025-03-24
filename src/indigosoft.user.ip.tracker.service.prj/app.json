@@ -1,0 +1,24 @@
+{
+	"Kestrel": {
+		"EndPoints": {
+			"Http": {
+				"Url": "http://*:5001"
+			}
+		}
+	},
+	"PostgreSql": {
+		"Host": "localhost",
+		"DatabaseName": "indigosoft",
+		"Port": "5432",
+		"Username": "postgres",
+		"Password": "admin",
+		"ConnectTimeout": "00:00:15",
+		"CommandTimeout": "00:00:30",
+		"CancellationTimeout": "00:00:02"
+	},
+	"EventProcessorSettings": {
+		"EmptyQueueWaitTime": 1000,
+		"IterationDelay": 1000,
+		"IterationCountBeforeWait": 1000
+	}
+}
