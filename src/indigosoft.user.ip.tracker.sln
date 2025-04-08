@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indigosoft.user.ip.tracker.database", "indigosoft.user.ip.tracker.database.prj\indigosoft.user.ip.tracker.database.csproj", "{057BB325-33A2-4EA2-8A5D-87FF65336917}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indigosoft.user.ip.tracker.service", "indigosoft.user.ip.tracker.service.prj\indigosoft.user.ip.tracker.service.csproj", "{29D4ABD2-3DAF-4660-9A54-90BAEFF9C029}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{279FE08B-2BCF-4C39-8389-4DE2FF332716}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indigosoft.user.ip.tracker.tests", "indigosoft.user.ip.tracker.tests.prj\indigosoft.user.ip.tracker.tests.csproj", "{B0491911-105B-44C7-BC0C-9F20120E08AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "indigosoft.user.ip.tracker.infrastructure", "indigosoft.user.ip.tracker.infrastructure.prj\indigosoft.user.ip.tracker.infrastructure.csproj", "{B92F4BDB-7968-4FE5-9C4A-0DF35133C536}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{057BB325-33A2-4EA2-8A5D-87FF65336917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{057BB325-33A2-4EA2-8A5D-87FF65336917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{057BB325-33A2-4EA2-8A5D-87FF65336917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{057BB325-33A2-4EA2-8A5D-87FF65336917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29D4ABD2-3DAF-4660-9A54-90BAEFF9C029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29D4ABD2-3DAF-4660-9A54-90BAEFF9C029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29D4ABD2-3DAF-4660-9A54-90BAEFF9C029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29D4ABD2-3DAF-4660-9A54-90BAEFF9C029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0491911-105B-44C7-BC0C-9F20120E08AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0491911-105B-44C7-BC0C-9F20120E08AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0491911-105B-44C7-BC0C-9F20120E08AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0491911-105B-44C7-BC0C-9F20120E08AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B92F4BDB-7968-4FE5-9C4A-0DF35133C536}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B92F4BDB-7968-4FE5-9C4A-0DF35133C536}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B92F4BDB-7968-4FE5-9C4A-0DF35133C536}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B92F4BDB-7968-4FE5-9C4A-0DF35133C536}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76AADE6F-F12F-412A-A648-AE3A94AB91CA}
+	EndGlobalSection
+EndGlobal

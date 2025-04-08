@@ -1,0 +1,52 @@
+{
+	"Kestrel": {
+		"EndPoints": {
+			"Http": {
+				"Url": "http://*:5001"
+			}
+		}
+	},
+	"PostgreSql": {
+		"Host": "localhost",
+		"DatabaseName": "indigosoft",
+		"Port": "5432",
+		"Username": "postgres",
+		"Password": "admin",
+		"ConnectTimeout": "00:00:15",
+		"CommandTimeout": "00:00:30",
+		"CancellationTimeout": "00:00:02"
+	},
+	"EventProcessorSettings": {
+		"EmptyQueueWaitTime": 1000,
+		"IterationDelay": 1000,
+		"IterationCountBeforeWait": 10000
+	},
+	"Serilog": {
+		"MinimumLevel": {
+			"Default": "Information",
+			"Override": {
+				"Microsoft": "Warning",
+				"System": "Warning"
+			}
+		},
+		"WriteTo": [
+			{
+				"Name": "Console"
+			},
+			{
+				"Name": "PostgreSQL",
+				"Args": {
+					"tableName": "logs",
+					"needAutoCreateTable": false,
+					"columnOptions": {
+						"message": "RenderedMessageColumnWriter",
+						"level": "LevelColumnWriter",
+						"timestamp": "TimestampColumnWriter",
+						"exception": "ExceptionColumnWriter",
+						"properties": "LogEventSerializedColumnWriter"
+					}
+				}
+			}
+		]
+	}
+}
